@@ -1,0 +1,5 @@
+From the above screenshots it can be understood that the most vulnerable ports that are open are :-
+  Port 135 : Runs MSRCP, which can allow for remote code execution which can be used in lateral movement for hackers.
+  Port 136 : Runs NetBIOS-SSN which is suspectible for Inbforamtion leakage and SMB relay attacks.
+  Port 445 : Runs Microsoft-DS which can lead to full system compromises like ranswares and etc.
+  Port 1900: Runs Universal Plug and Play which is known to be used DDoS amplification which is often found on misncofigured IoT devices.
